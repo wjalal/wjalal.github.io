@@ -1,65 +1,105 @@
-- title: General Informationnn
+- title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Wasif Jalal
+    - name: Email
+      value: jalalwasif@gmail.com
+    - name: Address
+      value: Mohammadpur, Dhaka
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: B.Sc. in Computer Science and Engineering
+      institution: Bangladesh University of Engineering and Technology
+      year: 2020–present
+      location: Dhaka, BD
+      description: 
+        <details>
+          <summary>Course Details</summary>
+          <ul>
+            <li>Structured and Object-Oriented Programming Languages</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Algorithm Engineering</li>
+            <li>Computer Architecture, Microprocessors, Microcontrollers, and Embedded Systems</li>
+            <li>Operating Systems and Compiler Design</li>
+            <li>Computer Networks</li>
+            <li>Software Engineering and Information System Design</li>
+            <li>Computer Security</li>
+            <li>Basic Electrical & Electronic Engineering, Signal Analysis, and Advanced Calculus</li>
+            <li>Statistics, Linear Algebra, and Mathematical Modelling</li>
+            <li>Machine Learning, Data Science, and Artificial Intelligence</li> 
+            <li>Introductory Bioinformatics</li>
+            <li>Computer Graphics</li>
+          </ul>
+        </details>
+    - title: Higher Secondary Certificate
+      institution: Notre Dame College
+      location: Dhaka, BD
+      year: 2017–2019
+    - title: Secondary School Certificate
+      institution: St. Joseph Higher Secondary School
+      location: Dhaka, BD
+      year: 2017
 
-- title: Experience
+- title: Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Core Developer
+      institution: CoronaJoy Bangladesh
+      location: Dhaka, BD
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Online public health portal operational during COVID-19 crisis
+        - Monitors COVID cases and deaths daily on regional basis
+        - Helps users find vacant hospitals and medical amenities close to their location
+        - title: <b><i>Key Responsiblities</i></b>
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+            - Design and develop web platform using ReactJS, Node.js, and Firebase
+            - Deploy and maintain information update system
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: "BrainRot-ViT : Brain-Age Estimation and Cognitive Status Classification Study"
+      institution: Department of CSE, BUET
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - <b><i>Supervisor:</i></b><br>
+          Dr. M. Sohel Rahman, <br>
+          Professor, <br>
+          Department of CSE, BUET<br>
+        - title: <b><i>Objectives:</i><b>
+          contents:
+          - Estimate brain-age of subjects from T1-weighted MRI Images using vision transformer-based architecture
+          - Determine correlation between brain-aging and cognitive illness
+          - Classify cognitive status and predict cognitive illness from aging patterns and image data 
+    - title: "ORANGE : Genomic Tissue-Specific Age Prediction Model"
+      institution: Department of CSE, BUET
+      year: 2023 - Present
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+        - <b><i>Undergraduate thesis</i></b>
+        - <b><i>Supervisor:</i></b><br>
+          Dr. M. Sohel Rahman, <br>
+          Professor, <br>
+          Department of CSE, BUET<br>
+        - title: <b><i>Objectives:</i><b>
+          contents:
+          - Estimate biological age of tissue samples from gene expression values
+          - Determine correlation between irregular aging patterns and mortality
+    - title: "RailCop : RailTrack Accident Forecaster"
+      institution: Department of CSE, BUET
+      year: 2022
+      description:
+        - <b><i>Collaboration supervisor:</i></b><br>
+          Md. Adnan Quaium, <br>
+          Assistant Professor, <br>
+          Ahsanullah University of Engineering and Technology<br>
+        - title: <b><i>Objectives:</i><b>
+          contents:
+          - Monitor railtrack vibrations with ARM microcontrollers connected with LoRa modules
+          - Predict accidents from vibrations with pretrained machine learning models
 
 - title: Open Source Projects
   type: time_table
