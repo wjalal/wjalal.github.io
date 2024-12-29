@@ -124,6 +124,14 @@
 - title: Technical Skills
   type: nested_list
   contents:
+    - title: <b>Programming Languages</b>
+      items:
+        - C / C++
+        - Java
+        - Python
+        - JavaScript, TypeScript
+        - Dart
+        - PHP
     - title: Machine Learning and Data Science
       items:
         - Python, Microsoft Excel
@@ -164,28 +172,35 @@
         - Flutter (cross-platform)
         - Web back-end with Node.js, Dart
         - Firebase Cloud Messaging 
-    - title: <b>Programming Languages</b>
-      items:
-        - C / C++
-        - Java
-        - Python
-        - JavaScript, TypeScript
-        - Dart
-        - PHP
 
 - title: Languages 
-  type: list
+  type: nested_list
   contents:
-    - <u>English:</u> Fluent speaker, professional reading and writing
-    - <u>Bengali:</u> Native speaker, advanced reading and writing
-    - <u>Hindi:</u> Fluent speaker, basic reading and writing
-    - <u>Urdu:</u> Conversational fluency, basic reading and writing
-    - <u>Spanish:</u> Elementary speaking, reading, and writing
+    - title: English
+      items: 
+      - Fluent speaker
+      - Professional reading and writing
+    - title: Bengali
+      items: 
+      - Native speaker
+      - Aadvanced reading and writing
+    - title: Hindi
+      items: 
+      - Fluent speaker
+      - Basic reading and writing
+    - title: Urdu
+      items: 
+      - Conversational fluency
+      - Elementary reading and writing
+    - title: Spanish
+      items: 
+      - Beginner speaker
+      - Elementary reading and writing
 
 - title: Other Interests
-  type: list
+  type: nested_list
   contents:
-    - <u>Hobbies:</u> Travelling, Languages, Hardware
+    - <b>Hobbies:</b> Travelling, Languages, PC Hardware
 
 
 
