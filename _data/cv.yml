@@ -5,8 +5,8 @@
       value: Wasif Jalal
     - name: Email
       value: jalalwasif@gmail.com
-    - name: Address
-      value: Mohammadpur, Dhaka
+    - name: Phone
+      value: 1 (914) 230-0714
 
 - title: Education
   type: time_table
@@ -101,37 +101,91 @@
           - Monitor railtrack vibrations with ARM microcontrollers connected with LoRa modules
           - Predict accidents from vibrations with pretrained machine learning models
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Deep Learning
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Transformer-based architectures
+        - Generative models 
+        - Feature selection strategies 
+    - title: Computer vision
       items:
-        - Description 1.
-        - Description 2.
+        - Vision transformers 
+        - CNN-Transformer hybrid networks
+        - 3D Image Processing
+    - title: Bioinformatics
+      items:
+        - Longevity and aging
+        - Aging-oriented disease prediction
+        - Multimodal age prediciton techniques
+
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Machine Learning and Data Science
+      items:
+        - Python, Microsoft Excel
+        - NumPy, SciPy, scikit-learn, Pandas
+        - PyTorch, Torchvision, TensorLlow
+    - title: Database Design
+      items:
+        - PostgreSQL, PL/pgSQL 
+        - MongoDB, Firebase Firestore
+    - title: Back-end (Full-Stack) Development
+      items:
+        - Node.js, ExpressJS, PHP, Django (Web servers)
+        - SvelteKit, Flask (Full-stack design)
+        - Firebase (authentication, cloud integration, server-less design)
+        - Authentication and security (custom solutions)
+        - Real-time services and data management  
+    - title: Front-end Development
+      items:
+        - Svelte
+        - ReactJS
+        - HTML5, CSS, JavaScript
+        - Bootstrap, Tailwind CSS
+    - title: DevOps and System Administration 
+      items:
+        - Web application deployment 
+        - Linux System Operation
+        - Bash scripting
+        - Web server and database administration
+        - Load balancing and server management with NGINX
+        - Kubernetes Cluster Management 
+    - title: Cloud Services
+      items:
+        - AWS, Azure, GCP, DigitalOcean, 
+        - OVH Cloud VPS
+        - Firebase Cloud
+    - title: Mobile App Development
+      items:
+        - Flutter (cross-platform)
+        - Web back-end with Node.js, Dart
+        - Firebase Cloud Messaging 
+    - title: <b>Programming Languages</b>
+      items:
+        - C / C++
+        - Java
+        - Python
+        - JavaScript, TypeScript
+        - Dart
+        - PHP
+
+- title: Languages 
+  type: list
+  contents:
+    - <u>English:</u> Fluent speaker, professional reading and writing
+    - <u>Bengali:</u> Native speaker, advanced reading and writing
+    - <u>Hindi:</u> Fluent speaker, basic reading and writing
+    - <u>Urdu:</u> Conversational fluency, basic reading and writing
+    - <u>Spanish:</u> Elementary speaking, reading, and writing
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Travelling, Languages, Hardware
+
+
+
