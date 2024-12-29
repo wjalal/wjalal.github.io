@@ -198,7 +198,7 @@
       - Elementary reading and writing
 
 - title: Other Interests
-  type: nested_list
+  type: list
   contents:
     - <b>Hobbies:</b> Travelling, Languages, PC Hardware
 
