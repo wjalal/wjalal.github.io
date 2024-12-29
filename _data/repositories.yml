@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - NafiuRahman77/BusBuddy-Client-End
   - wjalal/2-2_term-project_railbuddy
   - wjalal/1-1_term_project_igraphics_dxball
   - wjalal/emergency_chat
@@ -21,4 +22,3 @@ github_repos:
   - wjalal/4-1
   - wjalal/3-1
   - wjalal/CSE472_ML_Sessional
-  - wjalal/pomo_beam
