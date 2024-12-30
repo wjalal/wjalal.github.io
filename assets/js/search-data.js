@@ -433,6 +433,11 @@ ninja.data = [{
           description: "Simple cross-platform chat and file sharing web app that kept us connected during a crisis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/emchat/";
+            },},{id: "projects-football-club-management-system",
+          title: 'Football Club Management System',
+          description: "A simple football player/club management system made with JavaFX.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/javafx/";
             },},{id: "projects-map2ddrive",
           title: 'Map2DDrive',
           description: "A 2D topdown driving simulator on live Google maps with navigation",
@@ -453,6 +458,11 @@ ninja.data = [{
           description: "E-ticketing and Route planning platform for Bangladesh Railway",
           section: "Projects",handler: () => {
               window.location.href = "/projects/railbuddy/";
+            },},{id: "projects-raytracing-and-rasterization",
+          title: 'Raytracing and Rasterization',
+          description: "A raytracing and rasterization pipeline implemented from scratch in C++ with OpenGL",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/raytracting/";
             },},{
         id: 'social-discord',
         title: 'Discord',
