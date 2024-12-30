@@ -398,8 +398,8 @@ ninja.data = [{
           description: "A web-based 8-puzzle solver platform that runs on a native n-puzzle solver program.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8puzzle/";
-            },},{id: "projects-8-puzzle-web",
-          title: '8-Puzzle Web',
+            },},{id: "projects-buet-cse-fest-2024-treasure-hunt",
+          title: 'BUET CSE Fest 2024 Treasure Hunt',
           description: "A web-based 8-puzzle solver platform that runs on a native n-puzzle solver program.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bcf24_hunt/";
