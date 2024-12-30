@@ -9,11 +9,10 @@ related_publications: false
 ---
 
 **BusBuddy** is a smart mobile application designed to provide an efficient bus service experience for students, teachers, and bus staff of **Bangladesh University of Engineering and Technology (BUET)**. This application was developed to meet the unique transportation needs of each user group, providing a long range of features.
-<br>
+<br><br>
 [busbuddy.wjalal.xyz](https://busbuddy.wjalal.xyz)
-<br>
+<br><br>
 ## Preview
-<br>
 <div style="display: flex; justify-content: space-between;">
   <div>
     <h4>Profile-based System</h4>
@@ -65,7 +64,8 @@ related_publications: false
   </div>
 </div>
 
-
+---
+<br>
 ## Features
 
 ### For Students

@@ -23,8 +23,8 @@ EmergencyChat is a simple web chat and file-sharing platform for both mobile and
 
 ## Previews 
 <div style="display: flex; flex-direction: column; justify-content: center;">
-  <img src="../../assets/img/emchat_ss1.png" alt="Screenshot 3" width="80%">
-  <img src="../../assets/img/ss2.png" alt="Screenshot 3" width="80%">
+  <img src="../../assets/img/emchat_ss1.png" alt="Screenshot 3" width="80%"><br>
+  <img src="../../assets/img/ss2.png" alt="Screenshot 3" width="80%"><br>
 
 <div style="display: flex; justify-content: space-between;">
   <img src="../../assets/img/ss3.jpg" alt="Screenshot 3" width="32%">
