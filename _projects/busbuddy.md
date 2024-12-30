@@ -58,51 +58,51 @@ related_publications: false
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-    <h3>Profile-based System</h3>
+    <h4>Profile-based System</h4>
     <img src="../../assets/img/1.jpg" alt="Profile Screenshot" width="300">
   </div>
-
+  &nbsp;
   <div>
-  <h3>>QR-based Ticket System</h3>
+  <h4>>QR-based Ticket System</h4>
   <img src="../../assets/img/qr.jpg" alt="QR Screenshot" width="300">
   </div>
-
+  &nbsp;
   <div>
-  <h3>Automated Ticket Scanning</h3>
+  <h4>Automated Ticket Scanning</h4>
   <img src="../../assets/img/scan.jpg" alt="Scan Screenshot" width="300">
   </div>
 </div>
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-  <h3>Ticket Viewing and Buying System</h3>
+  <h4>Ticket Viewing and Buying System</h4>
   <img src="../../assets/img/ticket.jpg" alt="Ticket Screenshot" width="300">
   </div>
-
+  &nbsp;
   <div>
-  <h3>Route-Time Calendar</h3>
+  <h4>Route-Time Calendar</h4>
   <img src="../../assets/img/routetimecalendar.jpg" alt="RT Calendar Screenshot" width="300">
   </div>
-
+  &nbsp;
   <div>
-  <h3>Trip Management</h3>
+  <h4>Trip Management</h4>
   <img src="../../assets/img/starttrip.jpg" alt="Trip Screenshot" width="300">
   </div>
 </div>
 
 <div style="display: flex; justify-content: space-between;">
   <div>
-  <h3>Real-time Bus Tracking</h3>
+  <h4>Real-time Bus Tracking</h4>
   <img src="../../assets/img/tracking.jpg" alt="Tracking Screenshot" width="300">
   </div>
-
+  &nbsp;
   <div>
-  <h3>Feedback System</h3>
+  <h4>Feedback System</h4>
   <img src="../../assets/img/feedback.jpg" alt="Feedback Screenshot" width="300">
   </div>
-
+  &nbsp;
   <div>
-  <h3>Requisition System</h3>
+  <h4>Requisition System</h4>
   <img src="../../assets/img/requisition.jpg" alt="Requisition Screenshot" width="300">
   </div>
 </div>
