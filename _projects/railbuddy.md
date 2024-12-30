@@ -4,7 +4,7 @@ title: RailBuddy
 description: E-ticketing and Route planning platform for Bangladesh Railway
 img: assets/img/railbuddy.png
 importance: 2
-category: work
+category: Important
 related_publications: false
 ---
 

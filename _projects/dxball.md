@@ -2,9 +2,9 @@
 layout: page
 title: DX-Ball Reincarnation
 description: A remake of the classic DX-Ball built with OpenGL and SDL2
-img: dxball.png
+img: assets/img/dxball.png
 importance: 4
-category: fun
+category: Fun
 ---
 
 

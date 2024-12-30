@@ -4,7 +4,7 @@ title: 8-Puzzle Web
 description: A web-based 8-puzzle solver platform that runs on a native n-puzzle solver program.
 img: assets/img/8puzzle.png
 importance: 6
-category: fun
+category: Fun
 ---
 # 8-Puzzle Solver
 

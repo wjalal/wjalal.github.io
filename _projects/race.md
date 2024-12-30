@@ -4,7 +4,7 @@ title: Race
 description: A hardware racing game built with Arduino microcontrollers
 img: assets/img/race.jpg
 importance: 5
-category: fun
+category: Fun
 ---
 
 # Race

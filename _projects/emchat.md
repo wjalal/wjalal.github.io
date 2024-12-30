@@ -4,7 +4,7 @@ title: EmergencyChat
 description: Simple cross-platform chat and file sharing web app that kept us connected during a crisis
 img: assets/img/emchat_ss1.png
 importance: 3
-category: work
+category: Important
 ---
 EmergencyChat is a simple web chat and file-sharing platform for both mobile and desktop. It was developed to get around the government-enforced internet outage in Bangladesh during the crisis of July-August 2024. 
 

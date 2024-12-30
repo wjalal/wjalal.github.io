@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Map2DDrive
-description: another project with an image 🎉
+description: A 2D topdown driving simulator on live Google maps with navigation
 img: assets/img/mapdrive.png
 importance: 7
-category: fun
+category: Fun
 
 ---
 

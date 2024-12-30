@@ -4,7 +4,7 @@ title: BusBuddy
 description: A mobile app for universities, enabling ticket purchases, bus tracking, schedules, and predictive algorithms.
 img: assets/img/bg.jpg
 importance: 1
-category: work
+category: Important
 related_publications: false
 ---
 
