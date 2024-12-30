@@ -8,6 +8,9 @@ category: work
 ---
 EmergencyChat is a simple web chat and file-sharing platform for both mobile and desktop. It was developed to get around the government-enforced internet outage in Bangladesh during the crisis of July-August 2024.
 
+## Live Demo
+Check out [EmergencyChat : emchat.wjalal.xyz](https://emchat.wjalal.xyz)
+
 ## Features
 - Direct messaging between contacts
 - Group chats
@@ -25,6 +28,7 @@ EmergencyChat is a simple web chat and file-sharing platform for both mobile and
 <div style="display: flex; flex-direction: column; justify-content: center;">
   <img src="../../assets/img/emchat_ss1.png" alt="Screenshot 3" width="80%"><br>
   <img src="../../assets/img/ss2.png" alt="Screenshot 3" width="80%"><br>
+</div>
 
 <div style="display: flex; justify-content: space-between;">
   <img src="../../assets/img/ss3.jpg" alt="Screenshot 3" width="32%">

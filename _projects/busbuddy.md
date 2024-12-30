@@ -101,14 +101,15 @@ related_publications: false
   Link buses to GPS for real-time tracking.
 - **Automated Bus Facility**  
   Streamline operations with automation tools.
-
+<br>
 ## Technologies Used
 - **Frontend:** Flutter (cross-platform mobile development)
 - **Backend:** Node.js with Express (server-side logic)
 - **Database:** PostgreSQL (data storage)
 - **Payment Integration:** Payment gateway for ticket purchases
 - **GPS Integration:** Google Maps API for live bus tracking
-\\
+
+
 ## Deployment Status
 
 **BusBuddy** is currently being deployed at **Bangladesh University of Engineering and Technology (BUET)**. The app is in the final stages of integration with the campus transportation system to provide a better bus travel experience for students, teachers, and staff.
