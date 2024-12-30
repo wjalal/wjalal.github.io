@@ -420,7 +420,7 @@ ninja.data = [{
               window.location.href = "/projects/emchat/";
             },},{id: "projects-map2ddrive",
           title: 'Map2DDrive',
-          description: "another project with an image 🎉",
+          description: "A 2D topdown driving simulator on live Google maps with navigation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mapdrive/";
             },},{id: "projects-race",
