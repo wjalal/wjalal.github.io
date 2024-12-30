@@ -405,7 +405,7 @@ ninja.data = [{
               window.location.href = "/projects/bcf24_hunt/";
             },},{id: "projects-busbuddy",
           title: 'BusBuddy',
-          description: "A mobile app for universities, enabling ticket purchases, bus tracking, schedules, and predictive algorithms.",
+          description: "A mobile app for universities, enabling ticket purchases, bus tracking, schedules, and predictive algorithms",
           section: "Projects",handler: () => {
               window.location.href = "/projects/busbuddy/";
             },},{id: "projects-buet-cse-fest-2024-treasure-hunt",
