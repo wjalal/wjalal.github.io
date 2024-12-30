@@ -410,7 +410,7 @@ ninja.data = [{
               window.location.href = "/projects/busbuddy/";
             },},{id: "projects-buet-cse-fest-2024-treasure-hunt",
           title: 'BUET CSE Fest 2024 Treasure Hunt',
-          description: "A web-based 8-puzzle solver platform that runs on a native n-puzzle solver program.",
+          description: "A small app for playing with sinusoidal curves and tweaking them to gain an intuition into their properties",
           section: "Projects",handler: () => {
               window.location.href = "/projects/curves/";
             },},{id: "projects-dx-ball-reincarnation",
