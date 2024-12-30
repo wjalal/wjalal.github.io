@@ -408,6 +408,11 @@ ninja.data = [{
           description: "A mobile app for universities, enabling ticket purchases, bus tracking, schedules, and predictive algorithms.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/busbuddy/";
+            },},{id: "projects-buet-cse-fest-2024-treasure-hunt",
+          title: 'BUET CSE Fest 2024 Treasure Hunt',
+          description: "A web-based 8-puzzle solver platform that runs on a native n-puzzle solver program.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/curves/";
             },},{id: "projects-dx-ball-reincarnation",
           title: 'DX-Ball Reincarnation',
           description: "A remake of the classic DX-Ball built with OpenGL and SDL2",
