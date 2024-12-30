@@ -23,6 +23,8 @@ The 4-bit ALU is controlled by three selection bits (cs2, cs1, cs0) and supports
 | `100`           | Complement A (A’)          |
 | `111`           | Increment A (A + 1)        |
 
+---
+
 ### Flag Definitions
 - **Carry Flag (CF)**: Indicates carry-out.
 - **Overflow Flag (VF)**: Indicates signed addition overflow.
@@ -39,9 +41,10 @@ The ALU is designed using a combination of control logic, multiplexing, and comb
 
 
 ### Complete Circuit Diagram
-![Circuit Diagram](circuit_diagram.png)
+![Circuit Diagram](../../assets/img/circuit_diagram.png)
 
 ## Required ICs
+
 | IC Name   | Description                              | Count |
 | --------- | ---------------------------------------- | ----- |
 | IC 74138  | 3-to-8 line decoder/demultiplexer        | 1     |
