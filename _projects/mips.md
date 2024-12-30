@@ -129,8 +129,9 @@ This assignment focused on designing a 4-bit processor implementing a reduced MI
 ---
 
 ## IC Count
+
 | Component                     | IC Used       | Quantity |
-|-------------------------------|---------------|----------|
+| ----------------------------- | ------------- | -------- |
 | Quad 2-to-1 Line MUX          | IC74157       | 8        |
 | 4-bit Adder                   | IC7483        | 4        |
 | 8-bit D Flip-Flop             | IC74273       | 1        |
