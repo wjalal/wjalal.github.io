@@ -101,7 +101,8 @@ related_publications: false
   Link buses to GPS for real-time tracking.
 - **Automated Bus Facility**  
   Streamline operations with automation tools.
-<br>
+
+---
 ## Technologies Used
 - **Frontend:** Flutter (cross-platform mobile development)
 - **Backend:** Node.js with Express (server-side logic)
