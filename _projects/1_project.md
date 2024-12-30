@@ -83,7 +83,7 @@ related_publications: false
 ## Application Demonstration
 
 ### Profile-based System
-<img src="https://github.com/NafiuRahman77/BusBuddy-Client-End/blob/main/src/1.jpg" alt="Profile Screenshot" width="300">
+<img src="https://busbuddy.wjalal.xyz/src/1.jpg" alt="Profile Screenshot" width="300">
 
 ### QR-based Ticket System
 <img src="https://github.com/NafiuRahman77/BusBuddy-Client-End/blob/main/src/qr.jpg" alt="QR Screenshot" width="300">
