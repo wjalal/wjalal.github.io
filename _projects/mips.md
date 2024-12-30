@@ -2,30 +2,17 @@
 layout: page
 title: 4-Bit MIPS CPU 
 description: A hardware implementation of a 4-bit CPU that runs on the MIPS instruction set
-img: 
+img: assets/img/mips.png
 importance: 10
 category: Academic
 ---
 
-# Detailed Summary of Group 5's Assignment Report
-
-## Course Information
-- **University**: Bangladesh University of Engineering & Technology
-- **Course**: CSE206 - Computer Architecture Sessional
-- **Assignment**: 03
-- **Submission Date**: February 28, 2023
-- **Group**: B1, Group 05
-- **Members**: 
-  - Tareq Ahmed (1905071)
-  - Mehreen Tabassum Maliha (1905078)
-  - Kazi Reyazul Hasan (1905082)
-  - Wasif Jalal (1905084)
-  - Mubasshira Musarrat (1905088)
-
----
-
 ## Introduction
 This assignment focused on designing a 4-bit processor implementing a reduced MIPS instruction set architecture (ISA). The processor performs arithmetic, logical, and I/O operations in one clock cycle per instruction. Key components designed include a 4-bit ALU, program counter, instruction memory, data memory, register files, and a control unit.
+
+
+![Datapath with Control](../../assets/img/mips_full.png)  
+*Hardware implimentation.*
 
 ### Key Features
 1. A simplified 16-bit MIPS instruction set.
@@ -45,7 +32,7 @@ This assignment focused on designing a 4-bit processor implementing a reduced MI
 
 **Diagram**:  
 ![4-bit ALU](../../assets/img/alu_diagram.png)  
-*Caption: 4-bit ALU design.*
+*4-bit ALU design.*
 
 ---
 
@@ -55,7 +42,7 @@ This assignment focused on designing a 4-bit processor implementing a reduced MI
 
 **Diagram**:  
 ![Program Counter](../../assets/img/pc_diagram.png)  
-*Caption: Program Counter design.*
+*Program Counter design.*
 
 ---
 
@@ -67,7 +54,7 @@ This assignment focused on designing a 4-bit processor implementing a reduced MI
 
 **Diagram**:  
 ![Instruction Memory](../../assets/img/instruction_memory_diagram.png)  
-*Caption: Instruction Memory design.*
+*Instruction Memory design.*
 
 ---
 
@@ -79,7 +66,7 @@ This assignment focused on designing a 4-bit processor implementing a reduced MI
 
 **Diagram**:  
 ![Data Memory](../../assets/img/data_memory_diagram.png)  
-*Caption: Data Memory design.*
+*Data Memory design.*
 
 ---
 
@@ -90,7 +77,7 @@ This assignment focused on designing a 4-bit processor implementing a reduced MI
 
 **Diagram**:  
 ![Register Files](../../assets/img/register_files_diagram.png)  
-*Caption: Register Files design.*
+*Register Files design.*
 
 ---
 
@@ -102,7 +89,7 @@ This assignment focused on designing a 4-bit processor implementing a reduced MI
 
 **Diagram**:  
 ![Control Unit](../../assets/img/control_unit_diagram.png)  
-*Caption: Control Unit design.*
+*Control Unit design.*
 
 ---
 
@@ -164,11 +151,11 @@ This assignment focused on designing a 4-bit processor implementing a reduced MI
 
 **Overall Circuit Diagram**:  
 ![Datapath with Control](../../assets/img/datapath_with_control_diagram.png)  
-*Caption: Overall Datapath with Control.*
+*Overall Datapath with Control.*
 
 ---
 
-## Bonus: Stack Operations
+## Stack Operations
 - **Push**: Stores a register value onto the stack and decrements \`$sp\`.
   ```
   subi $sp, $sp, 1
@@ -179,3 +166,6 @@ This assignment focused on designing a 4-bit processor implementing a reduced MI
   lw $tx, 0($sp)
   addi $sp, $sp, 1
   ```
+
+![Datapath with Control](../../assets/img/selfie.jpg)  
+*Cringe selfie after being awake for several nights.*
