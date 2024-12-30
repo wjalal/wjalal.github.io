@@ -83,31 +83,31 @@ related_publications: false
 ## Application Demonstration
 
 ### Profile-based System
-<img src="assets/img/1.jpg" alt="Profile Screenshot" width="300">
+<img src="../../assets/img/1.jpg" alt="Profile Screenshot" width="300">
 
 ### QR-based Ticket System
-<img src="assets/img/qr.jpg" alt="QR Screenshot" width="300">
+<img src="../../assets/img/qr.jpg" alt="QR Screenshot" width="300">
 
 ### Automated Ticket Scanning
-<img src="assets/img/scan.jpg" alt="Scan Screenshot" width="300">
+<img src="../../assets/img/scan.jpg" alt="Scan Screenshot" width="300">
 
 ### Ticket Viewing and Buying System
-<img src="assets/img/ticket.jpg" alt="Ticket Screenshot" width="300">
+<img src="../../assets/img/ticket.jpg" alt="Ticket Screenshot" width="300">
 
 ### Route-Time Calendar
-<img src="assets/img/routetimecalendar.jpg" alt="RT Calendar Screenshot" width="300">
+<img src="../../assets/img/routetimecalendar.jpg" alt="RT Calendar Screenshot" width="300">
 
 ### Trip Management
-<img src="assets/img/starttrip.jpg" alt="Trip Screenshot" width="300">
+<img src="../../assets/img/starttrip.jpg" alt="Trip Screenshot" width="300">
 
 ### Real-time Bus Tracking
-<img src="assets/img/tracking.jpg" alt="Tracking Screenshot" width="300">
+<img src="../../assets/img/tracking.jpg" alt="Tracking Screenshot" width="300">
 
 ### Feedback System
-<img src="assets/img/feedback.jpg" alt="Feedback Screenshot" width="300">
+<img src="../../assets/img/feedback.jpg" alt="Feedback Screenshot" width="300">
 
 ### Requisition System
-<img src="assets/img/requisition.jpg" alt="Requisition Screenshot" width="300">
+<img src="../../assets/img/requisition.jpg" alt="Requisition Screenshot" width="300">
 
 ## Deployment Status
 
