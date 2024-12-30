@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 8-Puzzle Web
+title: BUET CSE Fest 2024 Treasure Hunt
 description: A web-based 8-puzzle solver platform that runs on a native n-puzzle solver program.
 img: assets/img/hunt.png
-importance: 6
+importance: 8
 category: fun
 ---
 

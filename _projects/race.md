@@ -10,10 +10,9 @@ category: fun
 # Race
 This directory contains all of the resources related to our CSE316 Microcontroller term project. Our project was a Bluetooth-controlled racing game with two cars. Here is a **[demonstration video](https://www.youtube.com/watch?v=mE63gsLWX4w)**.
 
-![Race Game Setup](https://raw.githubusercontent.com/wjalal/3-1/main/16/project/_PROJECT_FINAL/design/game.jpg)
+<img src="https://raw.githubusercontent.com/wjalal/3-1/main/16/project/_PROJECT_FINAL/design/game.jpg" width="100%"/>
 
- 
-## Motivation
+ ## Motivation
 Promoting physical activities, movement and fun combined with  technological involvement. Remote controlled race cars were a thing in our childhood, but its popularity diminished along with many other hardware-based games while software games became more dominant over the years.
 
 We aim to bring back our good times from childhood, considering the mindsets of the younger generation which includes competitiveness, fast paced action and result, improvisation with modern technology to create a complete race car game which will cover the necessary features.
@@ -57,16 +56,16 @@ The central system will notify the cars when the users prompt it to start a game
 
 Design details can be seen [here](_PROJECT_FINAL/design).
 
-![Block Diagram](https://raw.githubusercontent.com/wjalal/3-1/main/16/project/_PROJECT_FINAL/design/block_diagram.jpg)
+<img src="https://raw.githubusercontent.com/wjalal/3-1/main/16/project/_PROJECT_FINAL/design/block_diagram.jpg" width="100%"/>
 
 
 ## Hardware Implementation 
 
 The cars and the central system:
 
-![Cars and System](https://raw.githubusercontent.com/wjalal/3-1/main/16/project/_PROJECT_FINAL/design/hardware.jpg)
+<img src="https://raw.githubusercontent.com/wjalal/3-1/main/16/project/_PROJECT_FINAL/design/hardware.jpg" width="100%"/>
 
 The track elements (start/middle/end line and power-down pickups): 
 
-![Track Elements](https://raw.githubusercontent.com/wjalal/3-1/main/16/project/_PROJECT_FINAL/design/track_elements.jpg)
+<img src="https://raw.githubusercontent.com/wjalal/3-1/main/16/project/_PROJECT_FINAL/design/track_elements.jpg" width="100%"/>
 
