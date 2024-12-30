@@ -22,6 +22,7 @@ EmergencyChat is a simple web chat and file-sharing platform for both mobile and
 - **Database**: PostgreSQL
 
 ## Previews 
+<div style="display: flex; flex-direction: column; justify-content: center;">
   <img src="../../assets/img/emchat_ss1.png" alt="Screenshot 3" width="80%">
   <img src="../../assets/img/ss2.png" alt="Screenshot 3" width="80%">
 

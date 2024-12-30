@@ -8,7 +8,63 @@ category: work
 related_publications: false
 ---
 
-[**BusBuddy**](https://busbudddy.wjalal.xyz) is a smart mobile application designed to provide an efficient bus service experience for students, teachers, and bus staff of **Bangladesh University of Engineering and Technology (BUET)**. This application was developed to meet the unique transportation needs of each user group, providing a long range of features.
+**BusBuddy** is a smart mobile application designed to provide an efficient bus service experience for students, teachers, and bus staff of **Bangladesh University of Engineering and Technology (BUET)**. This application was developed to meet the unique transportation needs of each user group, providing a long range of features.
+<br>
+[busbuddy.wjalal.xyz](https://busbuddy.wjalal.xyz)
+<br>
+## Preview
+<br>
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <h4>Profile-based System</h4>
+    <img src="../../assets/img/1.jpg" alt="Profile Screenshot" width="300">
+  </div>
+  &nbsp;
+  <div>
+  <h4>QR-based Ticket System</h4>
+  <img src="../../assets/img/qr.jpg" alt="QR Screenshot" width="300">
+  </div>
+  &nbsp;
+  <div>
+  <h4>Automated Ticket Scanning</h4>
+  <img src="../../assets/img/scan.jpg" alt="Scan Screenshot" width="300">
+  </div>
+</div>
+<br>
+<div style="display: flex; justify-content: space-between;">
+  <div>
+  <h4>Ticket Purchase Portal</h4>
+  <img src="../../assets/img/ticket.jpg" alt="Ticket Screenshot" width="300">
+  </div>
+  &nbsp;
+  <div>
+  <h4>Route-Time Calendar</h4>
+  <img src="../../assets/img/routetimecalendar.jpg" alt="RT Calendar Screenshot" width="300">
+  </div>
+  &nbsp;
+  <div>
+  <h4>Trip Management</h4>
+  <img src="../../assets/img/starttrip.jpg" alt="Trip Screenshot" width="300">
+  </div>
+</div>
+<br>
+<div style="display: flex; justify-content: space-between;">
+  <div>
+  <h4>Real-time Bus Tracking</h4>
+  <img src="../../assets/img/tracking.jpg" alt="Tracking Screenshot" width="300">
+  </div>
+  &nbsp;
+  <div>
+  <h4>Feedback System</h4>
+  <img src="../../assets/img/feedback.jpg" alt="Feedback Screenshot" width="300">
+  </div>
+  &nbsp;
+  <div>
+  <h4>Requisition System</h4>
+  <img src="../../assets/img/requisition.jpg" alt="Requisition Screenshot" width="300">
+  </div>
+</div>
+
 
 ## Features
 
@@ -52,61 +108,7 @@ related_publications: false
 - **Database:** PostgreSQL (data storage)
 - **Payment Integration:** Payment gateway for ticket purchases
 - **GPS Integration:** Google Maps API for live bus tracking
-
-
-## Application Demonstration
-
-<div style="display: flex; justify-content: space-between;">
-  <div>
-    <h4>Profile-based System</h4>
-    <img src="../../assets/img/1.jpg" alt="Profile Screenshot" width="300">
-  </div>
-  &nbsp;
-  <div>
-  <h4>>QR-based Ticket System</h4>
-  <img src="../../assets/img/qr.jpg" alt="QR Screenshot" width="300">
-  </div>
-  &nbsp;
-  <div>
-  <h4>Automated Ticket Scanning</h4>
-  <img src="../../assets/img/scan.jpg" alt="Scan Screenshot" width="300">
-  </div>
-</div>
-
-<div style="display: flex; justify-content: space-between;">
-  <div>
-  <h4>Ticket Viewing and Buying System</h4>
-  <img src="../../assets/img/ticket.jpg" alt="Ticket Screenshot" width="300">
-  </div>
-  &nbsp;
-  <div>
-  <h4>Route-Time Calendar</h4>
-  <img src="../../assets/img/routetimecalendar.jpg" alt="RT Calendar Screenshot" width="300">
-  </div>
-  &nbsp;
-  <div>
-  <h4>Trip Management</h4>
-  <img src="../../assets/img/starttrip.jpg" alt="Trip Screenshot" width="300">
-  </div>
-</div>
-
-<div style="display: flex; justify-content: space-between;">
-  <div>
-  <h4>Real-time Bus Tracking</h4>
-  <img src="../../assets/img/tracking.jpg" alt="Tracking Screenshot" width="300">
-  </div>
-  &nbsp;
-  <div>
-  <h4>Feedback System</h4>
-  <img src="../../assets/img/feedback.jpg" alt="Feedback Screenshot" width="300">
-  </div>
-  &nbsp;
-  <div>
-  <h4>Requisition System</h4>
-  <img src="../../assets/img/requisition.jpg" alt="Requisition Screenshot" width="300">
-  </div>
-</div>
-
+\\
 ## Deployment Status
 
 **BusBuddy** is currently being deployed at **Bangladesh University of Engineering and Technology (BUET)**. The app is in the final stages of integration with the campus transportation system to provide a better bus travel experience for students, teachers, and staff.
