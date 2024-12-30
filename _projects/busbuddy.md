@@ -2,13 +2,13 @@
 layout: page
 title: BusBuddy
 description: A mobile app for universities, enabling ticket purchases, bus tracking, schedules, and predictive algorithms.
-img: https://busbuddy.wjalal.xyz/src/bg.jpg
+img: assets/img/bg.jpg
 importance: 1
 category: work
 related_publications: false
 ---
 
-**BusBuddy** is a smart mobile application designed to provide an efficient bus service experience for students, teachers, and bus staff of **Bangladesh University of Engineering and Technology (BUET)**. This application was developed to meet the unique transportation needs of each user group, providing a long range of features.
+[**BusBuddy**](https://busbudddy.wjalal.xyz) is a smart mobile application designed to provide an efficient bus service experience for students, teachers, and bus staff of **Bangladesh University of Engineering and Technology (BUET)**. This application was developed to meet the unique transportation needs of each user group, providing a long range of features.
 
 ## Features
 
@@ -83,31 +83,31 @@ related_publications: false
 ## Application Demonstration
 
 ### Profile-based System
-<img src="https://busbuddy.wjalal.xyz/src/1.jpg" alt="Profile Screenshot" width="300">
+<img src="assets/img/1.jpg" alt="Profile Screenshot" width="300">
 
 ### QR-based Ticket System
-<img src="https://github.com/NafiuRahman77/BusBuddy-Client-End/blob/main/src/qr.jpg" alt="QR Screenshot" width="300">
+<img src="assets/img/qr.jpg" alt="QR Screenshot" width="300">
 
 ### Automated Ticket Scanning
-<img src="https://github.com/NafiuRahman77/BusBuddy-Client-End/blob/main/src/scan.jpg" alt="Scan Screenshot" width="300">
+<img src="assets/img/scan.jpg" alt="Scan Screenshot" width="300">
 
 ### Ticket Viewing and Buying System
-<img src="https://github.com/NafiuRahman77/BusBuddy-Client-End/blob/main/src/ticket.jpg" alt="Ticket Screenshot" width="300">
+<img src="assets/img/ticket.jpg" alt="Ticket Screenshot" width="300">
 
 ### Route-Time Calendar
-<img src="https://github.com/NafiuRahman77/BusBuddy-Client-End/blob/main/src/routetimecalendar.jpg" alt="RT Calendar Screenshot" width="300">
+<img src="assets/img/routetimecalendar.jpg" alt="RT Calendar Screenshot" width="300">
 
 ### Trip Management
-<img src="https://github.com/NafiuRahman77/BusBuddy-Client-End/blob/main/src/starttrip.jpg" alt="Trip Screenshot" width="300">
+<img src="assets/img/starttrip.jpg" alt="Trip Screenshot" width="300">
 
 ### Real-time Bus Tracking
-<img src="https://github.com/NafiuRahman77/BusBuddy-Client-End/blob/main/src/tracking.jpg" alt="Tracking Screenshot" width="300">
+<img src="assets/img/tracking.jpg" alt="Tracking Screenshot" width="300">
 
 ### Feedback System
-<img src="https://github.com/NafiuRahman77/BusBuddy-Client-End/blob/main/src/feedback.jpg" alt="Feedback Screenshot" width="300">
+<img src="assets/img/feedback.jpg" alt="Feedback Screenshot" width="300">
 
 ### Requisition System
-<img src="https://github.com/NafiuRahman77/BusBuddy-Client-End/blob/main/src/requisition.jpg" alt="Requisition Screenshot" width="300">
+<img src="assets/img/requisition.jpg" alt="Requisition Screenshot" width="300">
 
 ## Deployment Status
 
