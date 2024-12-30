@@ -425,7 +425,7 @@ ninja.data = [{
               window.location.href = "/projects/emchat/";
             },},{id: "projects-railbuddy",
           title: 'RailBuddy',
-          description: "with background image",
+          description: "E-ticketing and Route planning platform for Bangladesh Railway",
           section: "Projects",handler: () => {
               window.location.href = "/projects/railbuddy/";
             },},{
