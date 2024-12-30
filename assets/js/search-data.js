@@ -408,8 +408,13 @@ ninja.data = [{
           description: "A mobile app for universities, enabling ticket purchases, bus tracking, schedules, and predictive algorithms",
           section: "Projects",handler: () => {
               window.location.href = "/projects/busbuddy/";
-            },},{id: "projects-buet-cse-fest-2024-treasure-hunt",
-          title: 'BUET CSE Fest 2024 Treasure Hunt',
+            },},{id: "projects-8086-c-compiler",
+          title: '8086 C-Compiler',
+          description: "A compiler for a subset of the C-langauge for the Intel 8086 CPU, made from scratch",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/compiler/";
+            },},{id: "projects-curves",
+          title: 'Curves',
           description: "A small app for playing with sinusoidal curves and tweaking them to gain an intuition into their properties",
           section: "Projects",handler: () => {
               window.location.href = "/projects/curves/";
@@ -428,6 +433,11 @@ ninja.data = [{
           description: "A 2D topdown driving simulator on live Google maps with navigation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mapdrive/";
+            },},{id: "projects-4-bit-mips-cpu",
+          title: '4-Bit MIPS CPU',
+          description: "A hardware implementation of a 4-bit CPU that runs on the MIPS instruction set",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mips/";
             },},{id: "projects-race",
           title: 'Race',
           description: "A hardware racing game built with Arduino microcontrollers",
