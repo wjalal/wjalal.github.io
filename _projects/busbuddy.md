@@ -53,80 +53,58 @@ related_publications: false
 - **Payment Integration:** Payment gateway for ticket purchases
 - **GPS Integration:** Google Maps API for live bus tracking
 
-## Installation and Usage
-
-### Prerequisites
-- Install Flutter: [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
-- Ensure you have a device or emulator to run the app.
-
-### Steps to Run the App
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/NafiuRahman77/BusBuddy-Client-End.git
-   ```
-
-2. **Navigate to the Project Directory**  
-   ```bash
-   cd BusBuddy-Client-End
-   ```
-
-3. **Install Dependencies**  
-   ```bash
-   flutter pub get
-   ```
-
-4. **Run the App**  
-   ```bash
-   flutter run
-   ```
 
 ## Application Demonstration
 
+<div style="display: flex; justify-content: space-between;">
+  <div>
+    <h3>Profile-based System</h3>
+    <img src="../../assets/img/1.jpg" alt="Profile Screenshot" width="300">
+  </div>
+
+  <div>
+  <h3>>QR-based Ticket System</h3>
+  <img src="../../assets/img/qr.jpg" alt="QR Screenshot" width="300">
+  </div>
+
+  <div>
+  <h3>Automated Ticket Scanning</h3>
+  <img src="../../assets/img/scan.jpg" alt="Scan Screenshot" width="300">
+  </div>
+</div>
 
 <div style="display: flex; justify-content: space-between;">
-<div>
-  ### Profile-based System
-  <img src="../../assets/img/1.jpg" alt="Profile Screenshot" width="300">
+  <div>
+  <h3>Ticket Viewing and Buying System</h3>
+  <img src="../../assets/img/ticket.jpg" alt="Ticket Screenshot" width="300">
+  </div>
+
+  <div>
+  <h3>Route-Time Calendar</h3>
+  <img src="../../assets/img/routetimecalendar.jpg" alt="RT Calendar Screenshot" width="300">
+  </div>
+
+  <div>
+  <h3>Trip Management</h3>
+  <img src="../../assets/img/starttrip.jpg" alt="Trip Screenshot" width="300">
+  </div>
 </div>
 
-<div>
-### QR-based Ticket System
-<img src="../../assets/img/qr.jpg" alt="QR Screenshot" width="300">
-</div>
+<div style="display: flex; justify-content: space-between;">
+  <div>
+  <h3>Real-time Bus Tracking</h3>
+  <img src="../../assets/img/tracking.jpg" alt="Tracking Screenshot" width="300">
+  </div>
 
-<div>
-### Automated Ticket Scanning
-<img src="../../assets/img/scan.jpg" alt="Scan Screenshot" width="300">
-</div>
+  <div>
+  <h3>Feedback System</h3>
+  <img src="../../assets/img/feedback.jpg" alt="Feedback Screenshot" width="300">
+  </div>
 
-<div>
-### Ticket Viewing and Buying System
-<img src="../../assets/img/ticket.jpg" alt="Ticket Screenshot" width="300">
-</div>
-
-<div>
-### Route-Time Calendar
-<img src="../../assets/img/routetimecalendar.jpg" alt="RT Calendar Screenshot" width="300">
-</div>
-
-<div>
-### Trip Management
-<img src="../../assets/img/starttrip.jpg" alt="Trip Screenshot" width="300">
-</div>
-
-<div>
-### Real-time Bus Tracking
-<img src="../../assets/img/tracking.jpg" alt="Tracking Screenshot" width="300">
-</div>
-
-<div>
-### Feedback System
-<img src="../../assets/img/feedback.jpg" alt="Feedback Screenshot" width="300">
-</div>
-
-<div>
-### Requisition System
-<img src="../../assets/img/requisition.jpg" alt="Requisition Screenshot" width="300">
+  <div>
+  <h3>Requisition System</h3>
+  <img src="../../assets/img/requisition.jpg" alt="Requisition Screenshot" width="300">
+  </div>
 </div>
 
 ## Deployment Status
