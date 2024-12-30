@@ -54,6 +54,8 @@ The ALU is designed using a combination of control logic, multiplexing, and comb
 | IC 7483   | 4-bit binary full adder                  | 1     |
 | IC 7432   | Quad 2-input OR gate                     | 1     |
 
+<br>
+
 ## Simulation
 The design is simulated using:
 - **Logisim-2.7.1** or **Logisim-Ita-2.16.1.4** (cross-compatible).
