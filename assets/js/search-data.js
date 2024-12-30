@@ -398,6 +398,11 @@ ninja.data = [{
           description: "A web-based 8-puzzle solver platform that runs on a native n-puzzle solver program.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8puzzle/";
+            },},{id: "projects-8-puzzle-web",
+          title: '8-Puzzle Web',
+          description: "A web-based 8-puzzle solver platform that runs on a native n-puzzle solver program.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/bcf24_hunt/";
             },},{id: "projects-busbuddy",
           title: 'BusBuddy',
           description: "A mobile app for universities, enabling ticket purchases, bus tracking, schedules, and predictive algorithms.",
