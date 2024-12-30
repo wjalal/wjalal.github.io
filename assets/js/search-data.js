@@ -393,12 +393,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
+          section: "News",},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
@@ -418,6 +413,11 @@ ninja.data = [{
           description: "A mobile app for universities, enabling ticket purchases, bus tracking, schedules, and predictive algorithms.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/busbuddy/";
+            },},{id: "projects-dx-ball-reincarnation",
+          title: 'DX-Ball Reincarnation',
+          description: "A remake of the classic DX-Ball built with OpenGL and SDL2",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/dxball/";
             },},{id: "projects-emergencychat",
           title: 'EmergencyChat',
           description: "Simple cross-platform chat and file sharing web app that kept us connected during a crisis",
