@@ -11,7 +11,7 @@ category: Academic
 This assignment focused on designing a 4-bit processor implementing a reduced MIPS instruction set architecture (ISA). The processor performs arithmetic, logical, and I/O operations in one clock cycle per instruction. Key components designed include a 4-bit ALU, program counter, instruction memory, data memory, register files, and a control unit.
 
 
-![Datapath with Control](../../assets/img/mips_full.png)  
+<img src="../../assets/img/mips_full.png" width="100%" alt="Datapath with Control"/>
 *Hardware implimentation.*
 
 ### Key Features
@@ -102,24 +102,24 @@ This assignment focused on designing a 4-bit processor implementing a reduced MI
 
 ### Format Details
 - **R-Type**:  
-  - \`Opcode (4 bits)\` | \`Src Reg 1 (4 bits)\` | \`Src Reg 2 (4 bits)\` | \`Dest Reg (4 bits)\`
+  - `Opcode (4 bits)` | `Src Reg 1 (4 bits)` | `Src Reg 2 (4 bits)` | `Dest Reg (4 bits)`
 - **S-Type**:  
-  - \`Opcode (4 bits)\` | \`Src Reg 1 (4 bits)\` | \`Dest Reg (4 bits)\` | \`Shift Amount (4 bits)\`
+  - `Opcode (4 bits)` | `Src Reg 1 (4 bits)` | `Dest Reg (4 bits)` | `Shift Amount (4 bits)`
 - **I-Type**:  
-  - \`Opcode (4 bits)\` | \`Src Reg 1 (4 bits)\` | \`Src/Dest Reg (4 bits)\` | \`Address/Immediate (4 bits)\`
+  - `Opcode (4 bits)` | `Src Reg 1 (4 bits)` | `Src/Dest Reg (4 bits)` | `Address/Immediate (4 bits)`
 - **J-Type**:  
-  - \`Opcode (4 bits)\` | \`Target Jump Address (8 bits)\` | \`Unused (4 bits)\`
+  - `Opcode (4 bits)` | `Target Jump Address (8 bits)` | `Unused (4 bits)`
 
 ---
 
 ## Execution Workflow
 
 ### Machine Code Generation
-1. Write assembly code in \`assembly1.txt\`.
-2. Generate \`.hex\` and \`.bin\` files using the provided C program.
+1. Write assembly code in `assembly1.txt`.
+2. Generate `.hex` and `.bin` files using the provided C program.
 
 ### Simulation
-- **Software**: Load \`.hex\` file into Logisim-ITA to simulate.
+- **Software**: Load `.hex` file into Logisim-ITA to simulate.
 - **Hardware**: Burn instructions onto ATMEGA32 microcontroller.
 
 ### Execution
@@ -156,16 +156,15 @@ This assignment focused on designing a 4-bit processor implementing a reduced MI
 ---
 
 ## Stack Operations
-- **Push**: Stores a register value onto the stack and decrements \`$sp\`.
+- **Push**: Stores a register value onto the stack and decrements `$sp`.
   ```
   subi $sp, $sp, 1
   sw $tx, 0($sp)
   ```
-- **Pop**: Loads a value from the stack and increments \`$sp\`.
+- **Pop**: Loads a value from the stack and increments `$sp`.
   ```
   lw $tx, 0($sp)
   addi $sp, $sp, 1
   ```
-
-![Datapath with Control](../../assets/img/selfie.jpg)  
+<img src="../../assets/img/selfie.jpg" width="100%" />
 *Cringe selfie after being awake for several nights.*
