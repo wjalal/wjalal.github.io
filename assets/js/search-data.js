@@ -393,21 +393,11 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+          section: "News",},{id: "projects-8-puzzle-web",
+          title: '8-Puzzle Web',
+          description: "A web-based 8-puzzle solver platform that runs on a native n-puzzle solver program.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/8puzzle/";
             },},{id: "projects-busbuddy",
           title: 'BusBuddy',
           description: "A mobile app for universities, enabling ticket purchases, bus tracking, schedules, and predictive algorithms.",
@@ -423,6 +413,16 @@ ninja.data = [{
           description: "Simple cross-platform chat and file sharing web app that kept us connected during a crisis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/emchat/";
+            },},{id: "projects-map2ddrive",
+          title: 'Map2DDrive',
+          description: "another project with an image 🎉",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mapdrive/";
+            },},{id: "projects-race",
+          title: 'Race',
+          description: "A hardware racing game built with Arduino microcontrollers",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/race/";
             },},{id: "projects-railbuddy",
           title: 'RailBuddy',
           description: "E-ticketing and Route planning platform for Bangladesh Railway",
