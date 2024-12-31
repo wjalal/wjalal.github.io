@@ -8,8 +8,7 @@ category: Fun
 github: https://github.com/wjalal/3-1/tree/main/16/project
 ---
 
-# Race
-This directory contains all of the resources related to our CSE316 Microcontroller term project. Our project was a Bluetooth-controlled racing game with two cars. Here is a **[demonstration video](https://www.youtube.com/watch?v=mE63gsLWX4w)**.
+This article contains all of the resources related to our CSE316 Microcontroller term project. Our project was a Bluetooth-controlled racing game with two cars. Here is a **[demonstration video](https://www.youtube.com/watch?v=mE63gsLWX4w)**.
 
 <img src="https://raw.githubusercontent.com/wjalal/3-1/main/16/project/_PROJECT_FINAL/design/game.jpg" width="100%"/>
 

@@ -10,7 +10,6 @@ live_redirect: https://8puzzle.wjalal.xyz
 github: https://github.com/wjalal/8-puzzle-web
 
 ---
-# 8-Puzzle Solver
 
 Welcome to the 8-Puzzle Solver! This web application provides a solution for the classic 8-puzzle (or 3x3 sliding puzzle) game. Users can interact with the puzzle grid, input values, and receive a step-by-step solution to reach the goal state.
 
