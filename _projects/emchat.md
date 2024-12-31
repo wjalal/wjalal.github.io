@@ -1,7 +1,7 @@
 ---
 layout: page
 title: EmergencyChat
-description: Simple cross-platform chat and file sharing web app that kept us connected during a crisis
+description: Simple cross-platform chat and file sharing web app that kept us connected during a political crisis
 img: assets/img/emchat_ss1.png
 importance: 3
 category: Important
@@ -11,9 +11,9 @@ github: https://github.com/wjalal/emergency_chat
 
 
 ---
-EmergencyChat is a simple web chat and file-sharing platform for both mobile and desktop. It was developed to get around the government-enforced internet outage in Bangladesh during the crisis of July-August 2024. 
+EmergencyChat is a simple web chat and file-sharing platform for both mobile and desktop. It was developed to get around the government-enforced internet outage in Bangladesh during the political crisis of July-August 2024. 
 
-A few days into the blackout
+A few days into the blackout, I realized that the *government censorship* was enforced by blocking communications at the IIG (International Internet Gateway) level, while the National Internet Exchange infrastructure was still left operational for essential services. I decided to refactor existing code on my computer, from other projects, into this chatting and file-sharing platform, painstakingly in the absence of online resources and documentation, and host it on my friend [Sadif](https://github.com/Sadif-Ahmed)'s personal computer.
 
 ## Live Demo
 Check out [EmergencyChat : emchat.wjalal.xyz](https://emchat.wjalal.xyz)
