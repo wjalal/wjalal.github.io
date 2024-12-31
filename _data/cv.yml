@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: B.Sc. in Computer Science and Engineering
-      institution: Bangladesh University of Engineering and Technology
+      institution: <a href="https://cse.buet.ac.bd">Bangladesh University of Engineering and Technology</a>
       year: 2020–present
       location: Dhaka, BD
       description: 
@@ -35,11 +35,11 @@
           </ul>
         </details>
     - title: Higher Secondary Certificate
-      institution: Notre Dame College
+      institution: <a href="https://ndc.edu.bd/">Notre Dame College</a>
       location: Dhaka, BD
       year: 2017–2019
     - title: Secondary School Certificate
-      institution: St. Joseph Higher Secondary School
+      institution: <a href="https://www.sjs.edu.bd/">St. Joseph Higher Secondary School</a>
       location: Dhaka, BD
       year: 2017
 
@@ -63,7 +63,7 @@
   type: time_table
   contents:
     - title: "BrainRot-ViT : Brain-Age Estimation and Cognitive Status Classification Study"
-      institution: Department of CSE, BUET
+      institution: <a href="https://cse.buet.ac.bd">Department of CSE, BUET</a>
       year: 2024 - Present
       description:
         - <b><i>Supervisor:</i></b><br>
@@ -76,7 +76,7 @@
           - Determine correlation between brain-aging and cognitive illness
           - Classify cognitive status and predict cognitive illness from aging patterns and image data 
     - title: "ORANGE : Genomic Tissue-Specific Age Prediction Model"
-      institution: Department of CSE, BUET
+      institution: <a href="https://cse.buet.ac.bd">Department of CSE, BUET</a>
       year: 2023 - Present
       description:
         - <b><i>Undergraduate thesis</i></b>
@@ -89,7 +89,7 @@
           - Estimate biological age of tissue samples from gene expression values
           - Determine correlation between irregular aging patterns and mortality
     - title: "RailCop : RailTrack Accident Forecaster"
-      institution: Department of CSE, BUET
+      institution: <a href="https://cse.buet.ac.bd">Department of CSE, BUET</a>
       year: 2022
       description:
         - <b><i>Collaboration supervisor:</i></b><br>

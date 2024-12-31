@@ -6,6 +6,7 @@ img: assets/img/mapdrive.png
 importance: 7
 category: Fun
 live: true
+live_redirect: https://mapdrive.wjalal.xyz
 ---
 
 Map2DDrive is a 2D top-down driving simulator that allows users to navigate a virtual vehicle over real-world maps. It provides a unique platform for users to explore real-world locations through a simulated driving interface, offering both entertainment and educational value.

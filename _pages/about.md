@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://cse.buet.ac.bd'>Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology</a>.
+subtitle: <a href='https://cse.buet.ac.bd'>Department of Computer Science and Engineering</a><br><a href='https://buet.ac.bd'>Bangladesh University of Engineering and Technology</a>
 
 profile:
   align: right

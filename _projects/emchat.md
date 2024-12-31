@@ -6,6 +6,8 @@ img: assets/img/emchat_ss1.png
 importance: 3
 category: Important
 live: true
+live_redirect: https://emchat.wjalal.xyz
+
 ---
 EmergencyChat is a simple web chat and file-sharing platform for both mobile and desktop. It was developed to get around the government-enforced internet outage in Bangladesh during the crisis of July-August 2024. 
 

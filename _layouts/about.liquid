@@ -47,7 +47,7 @@ layout: default
       </h2>
       <div class="projects">
       {% assign sorted_projects = site.projects | where: "live", true | sort: "importance" %}
-        <div class="row row-cols-1 row-cols-md-3">
+        <div class="row row-cols-1 row-cols-md-5">
           {% for project in sorted_projects %}
             {% include projects.liquid %}
           {% endfor %}

@@ -6,6 +6,7 @@ img: assets/img/8puzzle.png
 importance: 6
 category: Fun
 live: true
+live_redirect: https://8puzzle.wjalal.xyz
 ---
 # 8-Puzzle Solver
 
