@@ -74,10 +74,12 @@ layout: default
 
     <!-- Social -->
     {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+      <div style="transform: scale(1.5);transform-origin: center;">
+        <div class="social">
+          <div class="contact-icons">{% include social.liquid %}</div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
+          <div class="contact-note">{{ site.contact_note }}</div>
+        </div>
       </div>
     {% endif %}
 
