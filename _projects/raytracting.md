@@ -5,6 +5,7 @@ description: A raytracing and rasterization pipeline implemented from scratch in
 img: assets/img/rtx.png
 importance: 13
 category: Academic
+github: https://github.com/wjalal/4-1/tree/main/10/F3
 ---
 
 ## Overview

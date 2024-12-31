@@ -5,6 +5,8 @@ description: A web-based 8-puzzle solver platform that runs on a native n-puzzle
 img: assets/img/hunt.png
 importance: 8
 category: Fun
+github: https://github.com/wjalal/bcf24_hunt
+github_stars: true
 ---
 
 This project is a website for the BUET CSE Fest 2024 Treasure Hunt, an interactive platform designed to engage participants in a series of challenges during the event.

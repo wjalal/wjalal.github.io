@@ -6,4 +6,5 @@ img: assets/img/compiler.png
 redirect: https://github.com/wjalal/3-1/tree/main/10/The_Full_Compiler
 importance: 11
 category: Academic
+github: https://github.com/wjalal/3-1/tree/main/10/The_Full_Compiler
 ---

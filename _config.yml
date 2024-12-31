@@ -7,7 +7,7 @@ first_name: Wasif
 middle_name: 
 last_name: Jalal
 contact_note: >
-  Reach out to me on e-mail or LinkedIn!
+  Reach out to me by e-mail or on LinkedIn!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Portfolio website of Wasif Jalal. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >

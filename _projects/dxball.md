@@ -5,6 +5,8 @@ description: A remake of the classic DX-Ball built with OpenGL and SDL2
 img: assets/img/dxball.png
 importance: 4
 category: Fun
+github: https://github.com/wjalal/1-1_term_project_igraphics_dxball
+github_stars: true
 ---
 
 

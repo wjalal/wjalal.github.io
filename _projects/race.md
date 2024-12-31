@@ -5,6 +5,7 @@ description: A hardware racing game built with Arduino microcontrollers
 img: assets/img/race.jpg
 importance: 5
 category: Fun
+github: https://github.com/wjalal/3-1/tree/main/16/project
 ---
 
 # Race

@@ -42,12 +42,9 @@ layout: default
     <br>
     <!-- Selected Projects -->
     {% if page.projects %}
-      <h2>
-        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Live Projects</a>
-      </h2>
       <header class="post-header">
         <h2 class="post-title">Live Projects</h1>
-        <p class="post-description">Click on the tiles to visit my live projects. To explore more of my projects, visit the <a href="/projects">projects</a> page.</p>
+        <p class="post-description">Check out my live projects here! To explore more of my projects, visit the <u><a href="/projects">projects</a></u> page.</p>
       </header>
       <div class="projects">
       {% assign sorted_projects = site.projects | where: "live", true | sort: "importance" %}

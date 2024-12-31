@@ -5,6 +5,7 @@ description: A hardware implementation of a 4-bit Arithmetic and Logic Unit
 img: assets/img/alu.png
 importance: 12
 category: Academic
+github: https://github.com/kreyazulh/CSE-306-Computer-Architecture-Sessional
 ---
 
 ## Introduction

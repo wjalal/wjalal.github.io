@@ -5,6 +5,7 @@ description: A hardware implementation of a 4-bit CPU that runs on the MIPS inst
 img: assets/img/mips.png
 importance: 10
 category: Academic
+github: https://github.com/kreyazulh/CSE-306-Computer-Architecture-Sessional
 ---
 
 ## Introduction
