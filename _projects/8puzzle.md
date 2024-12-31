@@ -8,7 +8,7 @@ category: Fun
 live: true
 live_redirect: https://8puzzle.wjalal.xyz
 github: https://github.com/wjalal/8-puzzle-web
-github_stars: true
+
 ---
 # 8-Puzzle Solver
 

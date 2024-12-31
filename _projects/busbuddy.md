@@ -9,7 +9,7 @@ related_publications: false
 live: true
 live_redirect: https://busbuddy.wjalal.xyz
 github: https://github.com/NafiuRahman77/BusBuddy-Client-End
-github_stars: true
+
 ---
 
 **BusBuddy** is a smart mobile application designed to provide an efficient bus service experience for students, teachers, and bus staff of **Bangladesh University of Engineering and Technology (BUET)**. This application was developed to meet the unique transportation needs of each user group, providing a long range of features.

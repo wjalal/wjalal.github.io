@@ -12,22 +12,25 @@
         %}
       {% endif %}
       <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
+        <div class="d-flex justify-content-between align-items-center">
+          <h2 class="card-title mb-0">{{ project.title }}</h2>
           {% if project.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
+            <div class="github-icon d-flex align-items-center">
+              <a href="{{ project.github }}" class="icon" data-toggle="tooltip" title="Code Repository" style="font-size: 1.5em; color: #333;">
+                <i class="fa-brands fa-github gh-icon"></i>
+              </a>
               {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                <span class="stars ml-2" data-toggle="tooltip" title="GitHub Stars" style="font-size: 1.2em;">
                   <i class="fa-solid fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
+                  <span id="{{ project.github_stars }}-stars">{{ project.github_stars }}</span>
                 </span>
               {% endif %}
             </div>
           {% endif %}
+        </div>
+        <p class="card-text">{{ project.description }}</p>
+        <div class="row ml-1 mr-1 p-0">
+          <!-- Any other content -->
         </div>
       </div>
     </div>

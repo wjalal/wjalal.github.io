@@ -7,5 +7,5 @@ redirect: https://github.com/wjalal/1-1_mid-project_igraphics-curves
 importance: 9
 category: Fun
 github: https://github.com/wjalal/1-1_mid-project_igraphics-curves
-github_stars: true
+
 ---

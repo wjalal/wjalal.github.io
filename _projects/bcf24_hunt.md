@@ -6,7 +6,7 @@ img: assets/img/hunt.png
 importance: 8
 category: Fun
 github: https://github.com/wjalal/bcf24_hunt
-github_stars: true
+
 ---
 
 This project is a website for the BUET CSE Fest 2024 Treasure Hunt, an interactive platform designed to engage participants in a series of challenges during the event.
@@ -24,42 +24,42 @@ To set up the project locally, follow these steps:
 
 1. **Clone the Repository**:
 
-   '''
+   ```
    git clone https://github.com/wjalal/bcf24_hunt.git
-   '''
+   ```
 
 2. **Navigate to the Project Directory**:
 
-   '''
+   ```
    cd bcf24_hunt
-   '''
+   ```
 
 3. **Create a Virtual Environment**:
 
    Ensure you have Python installed. Then, create and activate a virtual environment:
 
-   '''
+   ```
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-   '''
+   ```
 
 4. **Install Dependencies**:
 
-   '''
+   ```
    pip install -r requirements.txt
-   '''
+   ```
 
 5. **Set Up the Database**:
 
-   '''
+   ```
    flask db upgrade
-   '''
+   ```
 
 6. **Run the Application**:
 
-   '''
+   ```
    flask run
-   '''
+   ```
 
    Access the application at `http://localhost:5000`.
 
