@@ -45,11 +45,15 @@ layout: default
       <h2>
         <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Live Projects</a>
       </h2>
+      <header class="post-header">
+        <h2 class="post-title">Live Projects</h1>
+        <p class="post-description">Click on the tiles to visit my live projects. To explore more of my projects, visit the <a href="/projects">projects</a> page.</p>
+      </header>
       <div class="projects">
       {% assign sorted_projects = site.projects | where: "live", true | sort: "importance" %}
-        <div class="row row-cols-1 row-cols-md-5">
+        <div class="row row-cols-1 row-cols-md-3">
           {% for project in sorted_projects %}
-            {% include projects.liquid %}
+            {% include live_projects.liquid %}
           {% endfor %}
         </div>
       </div>
