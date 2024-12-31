@@ -430,7 +430,7 @@ ninja.data = [{
               window.location.href = "/projects/dxball/";
             },},{id: "projects-emergencychat",
           title: 'EmergencyChat',
-          description: "Simple cross-platform chat and file sharing web app that kept us connected during a crisis",
+          description: "Simple cross-platform chat and file sharing web app that kept us connected during a political crisis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/emchat/";
             },},{id: "projects-football-club-management-system",
