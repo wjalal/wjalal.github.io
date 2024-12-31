@@ -405,7 +405,7 @@ ninja.data = [{
               window.location.href = "/projects/alu/";
             },},{id: "projects-buet-cse-fest-2024-treasure-hunt",
           title: 'BUET CSE Fest 2024 Treasure Hunt',
-          description: "A web-based 8-puzzle solver platform that runs on a native n-puzzle solver program.",
+          description: "website for the BUET CSE Fest 2024 Treasure Hunt",
           section: "Projects",handler: () => {
               window.location.href = "/projects/bcf24_hunt/";
             },},{id: "projects-busbuddy",
