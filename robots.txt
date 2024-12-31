@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://wjalal.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://wjalal.xyz/sitemap.xml
