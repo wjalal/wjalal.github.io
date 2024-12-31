@@ -58,6 +58,17 @@
           contents:
             - Design and develop web platform using ReactJS, Node.js, and Firebase
             - Deploy and maintain information update system
+    - title: Private Tutor
+      location: Dhaka, BD
+      year: 2019 - present
+      description:
+        - Tutored students from 8th grade to university-level in curricular academics
+        - title: <b><i>Subjects taught</i></b>
+          contents:
+            - Physics, Chemistry, Mathematics
+            - English as a Second Language
+            - Advanced Mathematics and Computer Science
+            - C, C++, Javascript, and Python programming 
 
 - title: Research Experience
   type: time_table
