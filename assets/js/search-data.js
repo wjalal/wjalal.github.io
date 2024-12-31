@@ -464,13 +464,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/raytracting/";
             },},{
-        id: 'social-discord',
-        title: 'Discord',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://discord.com/users/758361658375667724", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
@@ -478,11 +471,11 @@ ninja.data = [{
           window.open("mailto:%6A%61%6C%61%6C%77%61%73%69%66@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-facebook',
-        title: 'Facebook',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://facebook.com/w.j.galib", "_blank");
+          window.open("https://www.linkedin.com/in/wasif-jalal", "_blank");
         },
       },{
         id: 'social-github',
@@ -492,18 +485,25 @@ ninja.data = [{
           window.open("https://github.com/wjalal", "_blank");
         },
       },{
+        id: 'social-facebook',
+        title: 'Facebook',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://facebook.com/w.j.galib", "_blank");
+        },
+      },{
+        id: 'social-discord',
+        title: 'Discord',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://discord.com/users/758361658375667724", "_blank");
+        },
+      },{
         id: 'social-kaggle',
         title: 'Kaggle',
         section: 'Socials',
         handler: () => {
           window.open("https://www.kaggle.com/wasifjalal", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/wasif-jalal", "_blank");
         },
       },{
         id: 'social-orcid',
@@ -518,13 +518,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.researchgate.net/profile/Wasif-Jalal-2/", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
         },
       },{
         id: 'social-spotify',
