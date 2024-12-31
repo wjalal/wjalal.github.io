@@ -5,6 +5,7 @@ description: A web-based 8-puzzle solver platform that runs on a native n-puzzle
 img: assets/img/8puzzle.png
 importance: 6
 category: Fun
+live: true
 ---
 # 8-Puzzle Solver
 

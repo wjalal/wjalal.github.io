@@ -7,9 +7,9 @@ first_name: Wasif
 middle_name: 
 last_name: Jalal
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  Reach out to me on e-mail or LinkedIn!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Portfolio website of Wasif Jalal. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

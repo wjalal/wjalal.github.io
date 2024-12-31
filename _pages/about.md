@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://cse.buet.ac.bd'>Department of Computer Science and Engineering, Bangladesh University of Engineering and Technology</a>.
 
 profile:
   align: right
@@ -15,6 +15,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder...
+Welcome to my portfolio! I’m Wasif Jalal, an undergraduate senior, majoring in Computer Science and Engineering. As a full-stack developer and machine learning enthusiast, I’m passionate about bioinformatics, with a focus on longevity and aging research. My expertise spans programming languages like C++, Java, Python, and JavaScript, as well as frameworks like ReactJS and Node.js.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I’ve worked on projects such as BusBuddy, a smart transportation solution designed to enhance commuting efficiency, and I’m currently exploring brain-age estimation and genomic age prediction models through innovative applications of machine learning. Whether it’s computer vision, biomedical image analysis, or longevity research, I’m always eager to collaborate and create impactful solutions. Let’s connect!
