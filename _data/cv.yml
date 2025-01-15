@@ -101,7 +101,7 @@
           - Determine correlation between irregular aging patterns and mortality
     - title: "RailCop : RailTrack Accident Forecaster"
       institution: <a href="https://cse.buet.ac.bd">Department of CSE, BUET</a>
-      year: 2022
+      year: 2022 - Present
       description:
         - <b><i>Collaboration supervisor:</i></b><br>
           Md. Adnan Quaium, <br>
@@ -110,6 +110,7 @@
         - title: <b><i>Objectives:</i><b>
           contents:
           - Monitor railtrack vibrations with ARM microcontrollers connected with LoRa modules
+          - Collect vibration data on-site
           - Predict accidents from vibrations with pretrained machine learning models
 
 - title: Volunteering
@@ -156,7 +157,7 @@
       items:
         - Longevity and aging
         - Aging-oriented disease prediction
-        - Multimodal age prediciton techniques
+        - Multimodal age prediction techniques
 
 
 - title: Technical Skills
@@ -174,7 +175,7 @@
       items:
         - Python, Microsoft Excel
         - NumPy, SciPy, scikit-learn, Pandas
-        - PyTorch, Torchvision, TensorLlow
+        - PyTorch, Torchvision, TensorFlow
     - title: Database Design
       items:
         - PostgreSQL, PL/pgSQL 
@@ -210,6 +211,11 @@
         - Flutter (cross-platform)
         - Web back-end with Node.js, Dart
         - Firebase Cloud Messaging 
+    - title: Hardware and Embedded Systems
+      items:
+        - System design on Arduino boards and ATmega microcontrollers
+        - Wireless communication modules 
+        - Sensor modules and actuators 
 
 - title: Languages 
   type: nested_list
