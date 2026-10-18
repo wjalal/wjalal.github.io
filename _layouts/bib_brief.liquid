@@ -1,0 +1,30 @@
+---
+---
+<!-- Compact entry used on the home page; the full entry lives on /research/ -->
+<div class="row">
+  <div class="col-sm-2 abbr">
+    {%- if entry.abbr -%}
+      {% assign venue = site.data.venues[entry.abbr] %}
+      <abbr
+        class="badge rounded w-100"
+        {% if venue.color %}
+          style="background-color:{{ venue.color }}"
+        {% endif %}
+      >
+        {{- entry.abbr -}}
+      </abbr>
+    {%- endif -%}
+  </div>
+
+  <div class="col-sm-10">
+    <div class="title">
+      <a href="{{ '/research/' | relative_url }}#{{ entry.key }}">{{ entry.title }}</a>
+    </div>
+    <div class="periodical">
+      {%- if entry.type == 'article' -%}
+        <em>{{ entry.journal }}</em>, {% endif -%}
+      {{ entry.year }}
+      {%- if entry.note %} &middot; {{ entry.note }}{% endif -%}
+    </div>
+  </div>
+</div>
