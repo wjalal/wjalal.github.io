@@ -4,18 +4,26 @@
     - name: Name
       value: Wasif Jalal
     - name: Email
-      value: jalalwasif@gmail.com
+      value: wjalal@asu.edu
     - name: Phone
       value: +1 (914) 230-0714
+    - name: Location
+      value: Tempe, AZ, USA
 
 - title: Education
   type: time_table
   contents:
+    - title: Ph.D. in Computer Science
+      institution: <a href="https://www.asu.edu/">Arizona State University</a>
+      year: 2026 – present
+      location: Tempe, AZ
+      description:
+        - <b><i>Advisor:</i></b> <a href="https://asalekin.github.io/">Dr. Asif Salekin</a>
     - title: B.Sc. in Computer Science and Engineering
       institution: <a href="https://cse.buet.ac.bd">Bangladesh University of Engineering and Technology</a>
-      year: 2020–present
+      year: 2020 – 2025
       location: Dhaka, BD
-      description: 
+      description:
         <details>
           <summary>Course Details</summary>
           <ul>
@@ -29,7 +37,7 @@
             <li>Computer Security</li>
             <li>Basic Electrical & Electronic Engineering, Signal Analysis, and Advanced Calculus</li>
             <li>Statistics, Linear Algebra, and Mathematical Modelling</li>
-            <li>Machine Learning, Data Science, and Artificial Intelligence</li> 
+            <li>Machine Learning, Data Science, and Artificial Intelligence</li>
             <li>Introductory Bioinformatics</li>
             <li>Computer Graphics</li>
           </ul>
@@ -43,9 +51,34 @@
       location: Dhaka, BD
       year: 2017
 
-- title: Work Experience
+- title: Work/Research Experience
   type: time_table
   contents:
+    - title: Graduate Research Assistant
+      institution: <a href="https://uislab.github.io/">Ubiquitous and Intelligent Sensing Lab</a>, School of Biological and Health Systems Engineering, Arizona State University
+      year: 2026 – present
+      location: Tempe, AZ
+    - title: Full-Stack Developer
+      institution: JoynaTable (SonderWorks, LLC)
+      year: 2025 – 2026
+      location: Waterville, ME<br>(Remote)
+      description:
+        - Built and improved core platform features, including booking placement, booking management, identity-verification, and UI
+        - Integrated the payment gateway and reworked the payment architecture
+        - Conducted a database security review
+    - title: Machine Learning Engineer
+      institution: Research & Innovation Center, Bangladesh University of Engineering and Technology
+      year: 2025
+      location: Dhaka, BD
+      description:
+        - Identification of dengue breeding sites through object recognition
+    - title: Research Student Assistant
+      institution: Next Generation Computing Research Group, Department of CSE, Bangladesh University of Engineering and Technology
+      year: 2022 – 2025
+      location: Dhaka, BD
+      description:
+        - On-site data collection, experimentation, and design
+        - Monitored rail-track vibrations with ARM microcontrollers connected to LoRa modules
     - title: Core Developer
       institution: CoronaJoy Bangladesh
       location: Dhaka, BD
@@ -54,13 +87,13 @@
         - Online public health portal operational during COVID-19 crisis
         - Monitors COVID cases and deaths daily on regional basis
         - Helps users find vacant hospitals and medical amenities close to their location
-        - title: <b><i>Key Responsiblities</i></b>
+        - title: <b><i>Key Responsibilities</i></b>
           contents:
             - Design and develop web platform using ReactJS, Node.js, and Firebase
             - Deploy and maintain information update system
     - title: Private Tutor
       location: Dhaka, BD
-      year: 2019 - present
+      year: 2019 - 2025
       description:
         - Tutored students from 8th grade to university-level in curricular academics
         - title: <b><i>Subjects taught</i></b>
@@ -68,50 +101,22 @@
             - Physics, Chemistry, Mathematics
             - English as a Second Language
             - Advanced Mathematics and Computer Science
-            - C, C++, Javascript, and Python programming 
+            - C, C++, Javascript, and Python programming
 
-- title: Research Experience
+- title: Publications
+  type: list
+  contents:
+    - A full list of my publications and preprints is on the <a href="/research/">Research</a> page and on <a href="https://scholar.google.com/citations?user=RrzelsgAAAAJ">Google Scholar</a>.
+
+- title: Awards and Scholarships
   type: time_table
   contents:
-    - title: "BrainRot-ViT : Brain-Age Estimation and Cognitive Status Classification Study"
-      institution: <a href="https://cse.buet.ac.bd">Department of CSE, BUET</a>
-      year: 2024 - Present
-      description:
-        - <b><i>Supervisor:</i></b><br>
-          Dr. M. Sohel Rahman, <br>
-          Professor, <br>
-          Department of CSE, BUET<br>
-        - title: <b><i>Objectives:</i><b>
-          contents:
-          - Estimate brain-age of subjects from T1-weighted MRI Images using vision transformer-based architecture
-          - Determine correlation between brain-aging and cognitive illness
-          - Classify cognitive status and predict cognitive illness from aging patterns and image data 
-    - title: "ORANGE : Genomic Tissue-Specific Age Prediction Model"
-      institution: <a href="https://cse.buet.ac.bd">Department of CSE, BUET</a>
-      year: 2023 - Present
-      description:
-        - <b><i>Undergraduate thesis</i></b>
-        - <b><i>Supervisor:</i></b><br>
-          Dr. M. Sohel Rahman, <br>
-          Professor, <br>
-          Department of CSE, BUET<br>
-        - title: <b><i>Objectives:</i><b>
-          contents:
-          - Estimate biological age of tissue samples from gene expression values
-          - Determine correlation between irregular aging patterns and mortality
-    - title: "RailCop : RailTrack Accident Forecaster"
-      institution: <a href="https://cse.buet.ac.bd">Department of CSE, BUET</a>
-      year: 2022 - Present
-      description:
-        - <b><i>Collaboration supervisor:</i></b><br>
-          Md. Adnan Quaium, <br>
-          Assistant Professor, <br>
-          Ahsanullah University of Engineering and Technology<br>
-        - title: <b><i>Objectives:</i><b>
-          contents:
-          - Monitor railtrack vibrations with ARM microcontrollers connected with LoRa modules
-          - Collect vibration data on-site
-          - Predict accidents from vibrations with pretrained machine learning models
+    - title: University Graduate Fellowship
+      institution: School of Computing and Augmented Intelligence, Arizona State University
+      year: 2026
+    - title: Undergraduate Dean's List Scholarship
+      institution: Bangladesh University of Engineering and Technology
+      year: 2021
 
 - title: Volunteering
   type: time_table
@@ -122,12 +127,12 @@
       year: 2020 - present
       description:
         - Initiative launched to help underprivileged students at BUET
-        - Launched during the onset of the COVID-19 crisis, raised over 350,000 BDT 
+        - Launched during the onset of the COVID-19 crisis, raised over 350,000 BDT
         - Distributed fund to students and families who were financially struggling
-        - Delievered finger-tip pulse oximeters to COVID victims' doorsteps 
-        - title: <b><i>Key Responsiblities</i></b>
+        - Delivered finger-tip pulse oximeters to COVID victims' doorsteps
+        - title: <b><i>Key Responsibilities</i></b>
           contents:
-            - Collect and manage funds 
+            - Collect and manage funds
             - Build and maintain database systems and accounts
             - Build and maintain information collection system
     - title: Projection (Head of Publication and Design)
@@ -139,26 +144,25 @@
       location: Dhaka, BD
       year: 2016 - 2017
 
-
-- title: Academic Interests
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Deep Learning
+    - title: Trustworthy AI and Fairness
       items:
-        - Transformer-based architectures
-        - Generative models 
-        - Feature selection strategies 
-    - title: Computer vision
+        - Parameter-efficient fine-tuning
+        - Loss-landscape curvature geometry
+        - Subgroup performance disparities
+    - title: Deep Learning and Computer Vision
       items:
-        - Vision transformers 
-        - CNN-Transformer hybrid networks
-        - 3D Image Processing
-    - title: Bioinformatics
+        - Transformers and vision transformers
+        - CNN-transformer hybrid networks
+        - Low-resource architectures
+        - 3D image processing
+    - title: AI for Health and Biomedical Informatics
       items:
-        - Longevity and aging
-        - Aging-oriented disease prediction
-        - Multimodal age prediction techniques
-
+        - Brain aging from structural MRI
+        - Tissue-specific aging from transcriptomics
+        - Ubiquitous and intelligent sensing
 
 - title: Technical Skills
   type: nested_list
@@ -178,7 +182,7 @@
         - PyTorch, Torchvision, TensorFlow
     - title: Database Design
       items:
-        - PostgreSQL, PL/pgSQL 
+        - PostgreSQL, PL/pgSQL
         - MongoDB, Firebase Firestore
     - title: Back-end (Full-Stack) Development
       items:
@@ -186,58 +190,58 @@
         - SvelteKit, Flask (Full-stack design)
         - Firebase (authentication, cloud integration, server-less design)
         - Authentication and security (custom solutions)
-        - Real-time services and data management  
+        - Real-time services and data management
     - title: Front-end Development
       items:
         - Svelte
         - ReactJS
         - HTML5, CSS, JavaScript
         - Bootstrap, Tailwind CSS
-    - title: DevOps and System Administration 
+    - title: DevOps and System Administration
       items:
-        - Web application deployment 
+        - Web application deployment
         - Linux System Operation
         - Bash scripting
         - Web server and database administration
         - Load balancing and server management with NGINX
-        - Kubernetes Cluster Management 
+        - Kubernetes Cluster Management
     - title: Cloud Services
       items:
-        - AWS, Azure, GCP, DigitalOcean, 
+        - AWS, Azure, GCP, DigitalOcean
         - OVH Cloud VPS
         - Firebase Cloud
     - title: Mobile App Development
       items:
         - Flutter (cross-platform)
         - Web back-end with Node.js, Dart
-        - Firebase Cloud Messaging 
+        - Firebase Cloud Messaging
     - title: Hardware and Embedded Systems
       items:
         - System design on Arduino boards and ATmega microcontrollers
-        - Wireless communication modules 
-        - Sensor modules and actuators 
+        - Wireless communication modules
+        - Sensor modules and actuators
 
-- title: Languages 
+- title: Languages
   type: nested_list
   contents:
     - title: English
-      items: 
+      items:
       - Fluent speaker
       - Professional reading and writing
     - title: Bengali
-      items: 
+      items:
       - Native speaker
-      - Aadvanced reading and writing
+      - Advanced reading and writing
     - title: Hindi
-      items: 
+      items:
       - Fluent speaker
       - Basic reading and writing
     - title: Urdu
-      items: 
+      items:
       - Conversational fluency
       - Elementary reading and writing
     - title: Spanish
-      items: 
+      items:
       - Beginner speaker
       - Elementary reading and writing
 
@@ -245,6 +249,3 @@
   type: list
   contents:
     - <b>Hobbies:</b> Travelling, Foreign Languages, PC Hardware
-
-
-

@@ -1,115 +1,53 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@article{jalal2026reducing,
+  abbr={arXiv},
+  status={preprint},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  title={Reducing the Adaptation Gap Through Reachable Fisher Geometry},
+  author={Jalal, Wasif and Deb, Sachin and Salekin, Asif},
+  journal={arXiv preprint arXiv:2609.36329},
+  year={2026},
+  note={Under review at the International Conference on Learning Representations (ICLR 2027)},
+  arxiv={2609.36329},
+  code={https://anonymous.4open.science/r/Optimization-Fisher-With-Low-Ranked-Adaptation-In-Deep-Learning-Models-461E},
+  preview={fisher.png},
+  abstract={Parameter-efficient fine-tuning (PEFT) determines not only how many parameters are trained but which local directions a model can move, so similar adapters can affect subgroup losses differently. The relevant curvature matrices are infeasible to form at adapter scale, so practice uses scalar summaries, such as the Fisher trace. What can it reveal, and what does it discard? We answer through the reachable Fisher: each subgroup's full-model Fisher pulled back through the adapter Jacobian, under likelihood losses the Gauss–Newton curvature the adapter can reach, whose trace is computable from score-gradient norms without forming the matrix. Under matched subgroup gradients, if the reachable-Fisher difference is positive definite on model-changing directions by a margin exceeding the Hessian–Fisher defect, every sufficiently small nonzero update along them increases the signed gap. The restricted operator norm of the Hessian difference instead determines worst-case quadratic change; a matrix-free Frobenius discrepancy upper-bounds its reachable-Fisher component, with defect and estimation errors kept separate. A trace cannot certify definiteness, nor do matched traces control magnitude: equality rules out a positive-definite difference yet permits the largest operator mismatch that trace allows. LoRA's factorization also precludes unrestricted definiteness in raw coordinates. Across 306 single-seed models, higher trace accompanies greater subgroup difficulty in 75.7% of 1,218 eligible evaluations, and trace matching during training narrows the best–worst subgroup gap in all 30 dataset–encoder–adapter combinations. Yet a held-out audit exposes what it leaves uncontrolled: the observed-label operator discrepancy falls in 23 of these 30, the primary unbiased squared-Frobenius statistic in only 16. The trace is therefore a scalable diagnostic and training heuristic, not a certificate of local gap behavior or matrix alignment.},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{jalal2026orange,
+  abbr={BiB},
+  status={published},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  title={{ORANGE}: a machine learning approach for modeling tissue-specific aging from transcriptomic data},
+  author={Jalal, Wasif and Musarrat, Mubasshira and Samee, Md Abul Hassan and Rahman, M Sohel},
+  journal={Briefings in Bioinformatics},
+  volume={27},
+  number={2},
+  pages={bbag093},
+  year={2026},
+  month={mar},
+  publisher={Oxford University Press},
+  doi={10.1093/bib/bbag093},
+  html={https://academic.oup.com/bib/article/27/2/bbag093/8503316},
+  pdf={ORANGE.pdf},
+  code={https://github.com/wjalal/ORANGE},
+  preview={orange.png},
+  abstract={Despite aging being a fundamental biological process that profoundly influences health and disease, the interplay between tissue-specific aging and mortality remains underexplored. This study applies machine learning on GTEx transcriptomic data to model tissue-specific biological ages across 12 different types of tissues and introduces an age-gap metric to quantify deviations from the chronological age. We use several modeling techniques optimized with three feature selection strategies: Pearson correlation, age-related differentially expressed genes, and tissue-enriched genes (expressed at least four-fold higher in a specific tissue). Among these, Pearson correlation combined with elastic net regression yields the best performance, with models achieving an average root mean squared error of 6.44 years and an R2 of 0.64. To quantify deviations from chronological age relative to the population, we train neural networks to regress predicted ages against chronological ages, and subtract their outputs from the predicted ages to calculate a metric that we call the age-gap. Age-gap statistics reveal significant tissue-specific aging patterns, identifying extreme agers and correlations between extreme aging and mortality. About 20% of subjects are found to exhibit extreme aging in one tissue, while 1% show multi-organ aging. Further analysis reveals that accelerated aging in specific tissues correlates with greater risk of death from illness. These findings greatly emphasize the role of transcriptomics in aging research and its implications for health and longevity.},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@article{jalal2025brainrotvit,
+  abbr={arXiv},
+  status={preprint},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  title={{BrainRotViT}: Transformer-ResNet Hybrid for Explainable Modeling of Brain Aging from {3D} {sMRI}},
+  author={Jalal, Wasif and Rahman, Md Nafiu and Rahman, Atif Hasan and Rahman, M Sohel},
+  journal={arXiv preprint arXiv:2511.15188},
+  year={2025},
+  note={Under review at Neural Networks (Elsevier)},
+  arxiv={2511.15188},
+  code={https://github.com/wjalal/BrainRotViT},
+  preview={brainrotvit.png},
+  abstract={Accurate brain age estimation from structural MRI is a valuable biomarker for studying aging and neurodegeneration. Traditional regression and CNN-based methods face limitations such as manual feature engineering, limited receptive fields, and overfitting on heterogeneous data. Pure transformer models, while effective, require large datasets and high computational cost. We propose Brain ResNet over trained Vision Transformer (BrainRotViT), a hybrid architecture that combines the global context modeling of vision transformers (ViT) with the local refinement of residual CNNs. A ViT encoder is first trained on an auxiliary age and sex classification task to learn slice-level features. The frozen encoder is then applied to all sagittal slices to generate a 2D matrix of embedding vectors, which is fed into a residual CNN regressor that incorporates subject sex at the final fully-connected layer to estimate continuous brain age. Our method achieves an MAE of 3.34 years (Pearson r = 0.98, Spearman ρ = 0.97, R2 = 0.95) on validation across 11 MRI datasets encompassing more than 130 acquisition sites, outperforming baseline and state-of-the-art models. It also generalizes well across 4 independent cohorts with MAEs between 3.77 and 5.04 years. Analyses on the brain age gap (BAG), i.e. the difference between the predicted age and actual age, show that aging patterns are associated with Alzheimer's disease, cognitive impairment, and autism spectrum disorder. Model attention maps highlight aging-associated regions of the brain, notably the cerebellar vermis, precentral and postcentral gyri, temporal lobes, and medial superior frontal gyrus. Our results demonstrate that this method provides an efficient, interpretable, and generalizable framework for brain-age prediction, bridging the gap between CNN- and transformer-based approaches while opening new avenues for aging and neurodegeneration research.},
 }
